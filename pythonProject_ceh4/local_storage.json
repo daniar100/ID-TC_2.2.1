@@ -1,0 +1,62 @@
+{
+    "daribar": {
+      "pages": ["/checkout", "/pharmacies", "/cart", "/search", "/"],
+      "currentPage": 1,
+      "city": "Алматы",
+      "lang": "ru",
+      "advertisingModal": false,
+      "cart": {
+        "3c20eebe-3ee1-4d9e-bd34-0ba2afd85286": {
+          "id": 2433,
+          "sku": "3c20eebe-3ee1-4d9e-bd34-0ba2afd85286",
+          "name": "Парацетамол таблетки 500 мг №10",
+          "status": 1,
+          "price": 105,
+          "price_avg": 134,
+          "price_max": 175,
+          "approximatePrice": 105,
+          "img": "https://db-images.object.pscloud.io/optimized_v4_img_middle250_3c20eebe-3ee1-4d9e-bd34-0ba2afd85286.webp",
+          "dosageForm": "Таблетки 0.5 г",
+          "packing": "10 шт.",
+          "nddaNum": "РК-ЛС-5№015674",
+          "recipeNeeded": "0",
+          "strongRecipeNeeded": "0",
+          "manufacturer": "Ирбитский ХФЗ",
+          "urlKey": "paracetamol-0-5-10",
+          "needsRecipe": false,
+          "countDesired": 1,
+          "avgPrices": 135,
+          "maxPrices": 200
+        }
+      },
+      "order": {
+        "sourceCode": "apteka_so_sklada_zhauzhurek_13",
+        "medicineList": [
+          {
+            "sku": "3c20eebe-3ee1-4d9e-bd34-0ba2afd85286",
+            "name": "Парацетамол таблетки 500 мг №10",
+            "img": "https://db-images.object.pscloud.io/optimized_v4_img_small_3c20eebe-3ee1-4d9e-bd34-0ba2afd85286.webp",
+            "packing": "10 шт.",
+            "needsRecipe": false,
+            "price": 105,
+            "count": 1,
+            "manufacturer": "Ирбитский ХФЗ",
+            "countDesired": 1,
+            "servicePrice": 105,
+            "urlKey": "paracetamol-0-5-10",
+            "needsStrongRecipe": "0",
+            "sortIndex": 2
+          }
+        ],
+        "paymentInPlace": true,
+        "economyAvg": 0
+      },
+      "userPhone": "77075999527",
+      "auth": {
+        "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lciI6dHJ1ZSwiZXhwIjoxNzE5OTkwODg4LCJuYW1lIjoiIiwicGhvbmUiOiI3NzA3NTk5OTUyNyIsInJlZnJlc2giOmZhbHNlLCJyb2xlIjoiY3VzdG9tZXIiLCJzZXNzaW9uX2lkIjoiZTFlNjgwZGUtYjc2MS00MDgyLThlZWUtYmFmZmRmOGExZGYyIn0.OPlhm1HUx-t3pQfo2aRwZOEtWheMnv_WSWZOJ72EqbQ",
+        "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjdXN0b21lciI6dHJ1ZSwiZXhwIjoxNzI3NjgwNDg4LCJuYW1lIjoiIiwicGhvbmUiOiI3NzA3NTk5OTUyNyIsInJlZnJlc2giOnRydWUsInJvbGUiOiJjdXN0b21lciIsInNlc3Npb25faWQiOiJkZWUyZGM4Yy0zNDIzLTRmNTYtYjg4Ny0wMjQ2OGUxNmQ4ZmEifQ.DfwTkJvuWdepe2Oi47PNOTFQwcdPL_a6SQJBK3YHBd8"
+      },
+      "userRole": "customer"
+    }
+  }
+  
