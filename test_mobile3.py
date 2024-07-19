@@ -58,7 +58,7 @@ def test_h_korzina():
                                       geolocation={"latitude": 37.7749, "longitude": -122.4194},
                                       locale='en-US')
         page = context.new_page()
-        page.goto("https://dev.daribar.kz/products/paracetamol-0-5-10--3c20eebe-3ee1-4d9e-bd34-0ba2afd85286")
+        page.goto("https://daribar.kz/products/paracetamol-0-5-10--3c20eebe-3ee1-4d9e-bd34-0ba2afd85286")
         # Загрузка данных в localStorage
         with open("storage_load.json", 'r', encoding='utf-8') as f:
             local_storage_data = json.load(f)
@@ -127,7 +127,7 @@ def test_ofo_form():
                                       geolocation={"latitude": 37.7749, "longitude": -122.4194},
                                       locale='en-US')
         page = context.new_page()
-        page.goto("https://dev.daribar.kz/pharmacies")
+        page.goto("https://daribar.kz/pharmacies")
         with open("storage_load3.json", 'r', encoding='utf-8') as f:
             local_storage_data = json.load(f)
 
@@ -162,7 +162,7 @@ def test_dos():
                                       geolocation={"latitude": 37.7749, "longitude": -122.4194},
                                       locale='en-US')
         page = context.new_page()
-        page.goto("https://dev.daribar.kz/checkout")
+        page.goto("https://daribar.kz/checkout")
         with open("storage_load4.json", 'r', encoding='utf-8') as f:
             local_storage_data = json.load(f)
 
@@ -187,8 +187,8 @@ def test_dos():
         page.wait_for_timeout(2000)
         page.get_by_role("button", name="Сохранить").click()
         page.wait_for_timeout(2000)
-        page.get_by_text("На мопеде или пешком").click()
-        page.wait_for_timeout(2000)
+        sel2=page.locator(".DeliveryTimeSwitchContent_descriptionContainer__4ug7N").first
+        sel2.click()
         page.get_by_text("Оформить заказ").click()
         local_storage = page.evaluate('''() => {
                                                                 let data = {};
@@ -200,7 +200,6 @@ def test_dos():
                                                             }''')
         with open("storage_load5.json", 'w', encoding='utf-8') as f:
             json.dump(local_storage, f, ensure_ascii=False, indent=4)
-        time.sleep(2)
         browser.close()
 
 def test_dari():
